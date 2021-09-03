@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>ToDO List</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;700&display=swap" rel="stylesheet"> 
+</head>
+<body>
+
+<h1>Список НЕ ТВОИХ сраных дел</h1>
+<button id="clearAllButton">очистить список</button>
+<div id="addBlock">
+	<input id="itemMainText" type="text">
+	<button id="addButton">Добавить</button>
+	<button id="descriptionButton"> \/ ДОБАВИТЬ ОПИСАНИЕ \/</button>
+	<input type="checkbox" name="importantItemCheckbox" id="importantItemCheckbox" > <label id="importantItemText"> важное</label> 
+	<textarea class="hiddenElement" id="itemDescription">
+	</textarea> 
+</div>
+
+<div id="importantListBlock" >
+	
+</div>
+
+<div id="listBlock" >
+	
+</div>
+
+</body>
+<script type="text/javascript" src="script.js"></script>
+</html>
